@@ -8,7 +8,7 @@ spec:
     - keptnMetricRef:
         name: available-cpus
         namespace: simplenode-dev
-      evaluationTarget: ">4"
+      evaluationTarget: ">1"
 ---
 apiVersion: lifecycle.keptn.sh/v1alpha3
 kind: KeptnEvaluationDefinition
@@ -20,4 +20,4 @@ spec:
     - keptnMetricRef:
         name: available-cpus
         namespace: simplenode-dev
-      evaluationTarget: ">4"
+      evaluationTarget: ">1"

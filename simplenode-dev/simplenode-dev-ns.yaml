@@ -3,4 +3,5 @@ kind: Namespace
 metadata:
   name: simplenode-dev
   annotations:
-    keptn.sh/lifecycle-toolkit: "enabled"  # this lines tells the webhook to handle the namespace
+    keptn.sh/lifecycle-toolkit: "enabled"
+    keptn.sh/lifecycle-controller: "enabled"  # this lines tells the webhook to handle the namespace
